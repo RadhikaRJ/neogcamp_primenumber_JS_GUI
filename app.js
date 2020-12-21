@@ -11,12 +11,13 @@ function clickHandler() {
         var date = setDate(inputData);
         var primeResult = checkPrime(date);
         if (primeResult == true) {
-            outputref.innerText = "Yes, the combination of your birthday & month number is prime number";
+            outputref.innerText = "Yes, the combination of your birthday & month number is a prime number.";
         } else {
-            outputref.innerText = "No, the combination of your birthday & month number is not prime number";
+            outputref.innerText = "No, the combination of your birthday & month number is not a prime number.";
         }
     } else {
         alert("Invalid or empty input.\nEnter the date in DD/MM format.");
+        
 
     }
 
